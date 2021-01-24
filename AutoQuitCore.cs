@@ -239,6 +239,6 @@ namespace AutoQuit
         public ToggleNode emptyHPFlasks { get; set; } = new ToggleNode(false);
         #endregion
 
-        public ToggleNode Enable { get; set; } = new ToggleNode(true);
+        public ToggleNode Enable { get; set; } = new ToggleNode(false);
     }
 }
